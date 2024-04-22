@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+}
+
+.imageContainer {
+    /* min-width: 200px; */
+    max-width: 100%;
+    height: auto;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.card-images {
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+.line-height {
+    height: 20px;
+}
+
+#root, #wrapper {
+    min-height: 100vh !important;
+    margin-bottom: -68px;
+}
