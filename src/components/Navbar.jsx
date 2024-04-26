@@ -1,8 +1,10 @@
-import { Container, Navbar, Nav } from "react-bootstrap";
+import { Container, Navbar, Nav, Image } from "react-bootstrap";
 import { motion } from "framer-motion";
 
 import { LANGUAGES } from "../constants/languages";
 import { useTranslationHook } from "../hooks/translation";
+
+import logo from "../assets/logo.png"
 
 function NavbarComponent({ children }) {
 	const { i18n, t, language } = useTranslationHook();
@@ -25,20 +27,20 @@ function NavbarComponent({ children }) {
 				bg="light"
 				data-bs-theme="light"
 			>
-				<Container className="border-bottom py-2">
-					<Navbar.Brand href="/">MONTES</Navbar.Brand>
+				<Container className="py-2 custom-border">
+					<Navbar.Brand href="/"><Image src={logo} className="logo-image" /> </Navbar.Brand>
 					<Navbar.Toggle />
 					<Navbar.Collapse className="justify-content-end">
 						<Nav variant="underline" defaultActiveKey={location}>
-							<Nav.Link href="/experiencia" className="font-bold">{t("experiencia")}</Nav.Link>
-							<Nav.Link href="/estudios" className="font-bold">{t("estudios")}</Nav.Link>
+							<Nav.Link href="/experiencia" className="font-bold text-color">{t("experiencia")}</Nav.Link>
+							<Nav.Link href="/estudios" className="font-bold text-color">{t("estudios")}</Nav.Link>
 							<select
 								defaultValue={language}
-								className="form-select font-bold"
+								className="form-select font-bold text-color"
 								onChange={onChangeLang}
 							>
 								{LANGUAGES.map(({ code, label }) => (
-									<option className="font-bold" key={code} value={code}>
+									<option className="font-bold text-color" key={code} value={code}>
 										{label}
 									</option>
 								))}

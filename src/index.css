@@ -1,20 +1,98 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-
-  font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --main-color: #6f90cb;
-  /* --main-color: #6ca9b9; */
+  /* --main-color-solid: #6f90cb; */
+  --main-color: linear-gradient(90deg, rgba(111, 144, 203, 1) 15%, rgba(108, 169, 185, 1) 100%);
+  --main-color-solid: #6ca9b9;
+  --dark-color-solid: #6f90cb;
+}
+
+html,
+body {
+  scrollbar-color: var(--main-color-solid) transparent !important;
+  scrollbar-width: thin;
+  height: 100%;
+}
+
+
+
+.custom-border {
+  border-bottom: 2px solid;
+  border-image-slice: 1;
+  border-width: 100%;
+
+  border-image-source: linear-gradient(to right, var(--dark-color-solid), var(--main-color-solid));
+}
+
+.text-color {
+  color: var(--main-color-solid) !important;
+}
+
+.text-dark-color {
+  color: var(--dark-color-solid) !important;
 }
 
 .bg-color {
-  background-color: var(--main-color);
+  background: var(--main-color);
 }
-  
-html, body {
-  scrollbar-color: var(--main-color) transparent !important;
-  scrollbar-width: thin;
+
+.bg-light-color {
+  background-color: var(--main-color-solid) !important;
+}
+
+.bg-dark-color {
+  background-color: var(--dark-color-solid) !important;
+}
+
+.imageContainer {
+  /* min-width: 200px; */
+  max-width: 100%;
+  height: auto;
+}
+
+.logo-image {
+  height: 60px;
+  width: auto;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.card-images {
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+.line-height {
+  height: 20px;
+}
+
+#root,
+#wrapper {
+  min-height: 100vh !important;
+  margin-bottom: -68px;
+}
+
+.font {
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+}
+
+.font-bold {
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.card-font {
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }

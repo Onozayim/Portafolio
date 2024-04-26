@@ -3,22 +3,22 @@ import { useTranslationHook } from "../hooks/translation";
 import { motion } from "framer-motion";
 
 import creative from "../assets/creative.png";
-import tepache from "../assets/tepache.jpg";
+import tepache from "../assets/tepache2.png";
 import "../App.css";
 
 function Experience() {
 	const { t } = useTranslationHook();
 	return (
 		<Container>
+			<br />
 			<motion.div
 				whileInView={{ scale: 1, opacity: 1 }}
 				initial={{ scale: 0, opacity: 0 }}
 				transition={{ duration: 0.3 }}
 				className="mb-3 mt-5"
 			>
-				<h2 className="text-center text-warning font-bold">Enero 2022 - Junio 2022</h2>
-				<h1 className="text-center mb-3 font-bold">CREATIVE SOFT</h1>
-				<hr className="border border-warning border-2 opacity-50 w-50 m-auto" />
+				<h2 className="text-center mb-3 font-bold text-dark-color">CREATIVE SOFT ({t("enero")} 2022 - {t("junio")} 2022)</h2>
+				<hr className="text-dark-color border-3 opacity-75 w-50 m-auto" />
 			</motion.div>
 			<div className="row mt-5 mb-5">
 				<motion.div
@@ -52,9 +52,8 @@ function Experience() {
 				transition={{ duration: 0.3 }}
 				className="mb-3"
 			>
-				<h2 className="text-center text-primary font-bold">2022 - HOY</h2>
-				<h1 className="text-center mb-3 font-bold">TEPACHE SOFT</h1>
-				<hr className="border border-primary border-2 opacity-50 w-50 m-auto" />
+				<h2 className="text-center mb-3 font-bold text-color">TEPACHE SOFT (2022 - {t("hoy")})</h2>
+				<hr className="text-color border-3 opacity-75 w-50 m-auto" />
 			</motion.div>
 			<div className="row mt-5 mb-6">
 				<motion.div

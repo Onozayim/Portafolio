@@ -11,15 +11,15 @@ function Studies() {
 
 	return (
 		<Container>
+			<br />
 			<motion.div
 				whileInView={{ scale: 1, opacity: 1 }}
 				initial={{ scale: 0, opacity: 0 }}
 				transition={{ duration: 0.3 }}
 				className="mb-3 mt-5"
 			>
-				<h2 className="text-center text-warning font-bold">2018 - 2022</h2>
-				<h1 className="text-center mb-3 font-bold">CETI COLOMOS</h1>
-				<hr className="border border-warning border-2 opacity-50 w-50 m-auto" />
+				<h2 className="text-center mb-3 text-dark-color font-bold">CETI COLOMOS (2018 - 2022)</h2>
+				<hr className="text-dark-color border-3 opacity-75  w-50 m-auto " />
 			</motion.div>
 			<div className="row mt-2 mb-5">
 				<motion.div
@@ -53,9 +53,8 @@ function Studies() {
 				transition={{ duration: 0.3 }}
 				className="mb-3"
 			>
-				<h2 className="text-center text-primary font-bold">2022 - HOY</h2>
-				<h1 className="text-center mb-3 font-bold">CUCEI</h1>
-				<hr className="border border-primary border-2 opacity-50 w-50 m-auto" />
+				<h1 className="text-center mb-3 font-bold text-color">CUCEI (2022- {t("hoy")})</h1>
+				<hr className="text-color border-3 opacity-75 w-50 m-auto" />
 			</motion.div>
 			<div className="row mt-2 mb-6">
 				<motion.div

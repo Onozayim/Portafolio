@@ -32,7 +32,7 @@ function App() {
 						whileInView={{ scale: 1, opacity: 1 }}
 						initial={{ scale: 0, opacity: 0 }}
 						transition={{ delay: 0.3, duration: 0.4 }}
-						className="font-monospace text-center"
+						className="card-font text-center"
 					>
 						{t("saludo")}
 					</motion.p>
@@ -73,7 +73,7 @@ function App() {
 			<motion.div
 				initial={{ scale: 0, opacity: 0 }}
 				whileInView={{ opacity: 1, scale: 1 }}
-				transition={{ duration: 0.4 }}
+				transition={{ duration: 0.2 }}
 			>
 				<Swiper
 					spaceBetween={0}

@@ -54,7 +54,10 @@ i18n.use(initReactI18next).init({
 				`,
 				tepache: `
 					With almost 2 years of working with them, providing service to the Mexican company called Adventa, I really learned many things, from optimization, to the maintenance process of different applications made in PHP, which were used to maintain and provide the inventory of several stores and companies. Currently I am not providing support service, only developing new improvements to their applications.
-				`
+				`,
+				enero: "JANUARY",
+				junio: "JUNE",
+				hoy: "TODAY",
 			},
 		},
 		es: {
@@ -104,7 +107,10 @@ i18n.use(initReactI18next).init({
 				`,
 				tepache: `
 					Con casi 2 años de estar trabajando con ellos, dándole servicio a la empresa mexicana llamada Adventa, realmente aprendí muchas cosas, desde la optimización, hasta el proceso de mantenimiento a diferentes aplicaciones hechas en PHP, las cuales servían para mantener y proveer el inventario de varias tiendas. Actualmente no les estoy brindando el servicio de soporte, solamente el de desarrollar nuevas mejoras a sus distintas aplicaciones. 
-				`
+				`,
+				enero: "ENERO",
+				junio: "JUNIO",
+				hoy: "HOY"
 			},
 		},
 	},
