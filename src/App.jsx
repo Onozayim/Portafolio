@@ -40,7 +40,7 @@ function App() {
 						whileInView={{ scale: 1, x: 0, opacity: 1 }}
 						initial={{ scale: 0, x: -100, opacity: 0 }}
 						transition={{ delay: 0.3, duration: 0.3 }}
-						className="text-center"
+						className="text-center font"
 					>
 						{t("intro")}
 					</motion.h1>
@@ -48,7 +48,7 @@ function App() {
 				<motion.div
 					className="col-md-7"
 					whileInView={{ scale: 1, opacity: 1 }}
-					initial={{ scale: 0,  opacity: 0 }}
+					initial={{ scale: 0, opacity: 0 }}
 					transition={{ duration: 0.3 }}
 					dura
 				>
@@ -65,7 +65,7 @@ function App() {
 				initial={{ scale: 0, opacity: 0 }}
 				whileInView={{ opacity: 1, scale: 1 }}
 				transition={{ duration: 0.3 }}
-				className="mb-5"
+				className="mb-5 font"
 			>
 				{t("tecnologias")}
 			</motion.h1>

@@ -17,8 +17,8 @@ function Studies() {
 				transition={{ duration: 0.3 }}
 				className="mb-3 mt-5"
 			>
-				<h2 className="text-center text-warning">2018 - 2022</h2>
-				<h1 className="text-center mb-3">CETI COLOMOS</h1>
+				<h2 className="text-center text-warning font-bold">2018 - 2022</h2>
+				<h1 className="text-center mb-3 font-bold">CETI COLOMOS</h1>
 				<hr className="border border-warning border-2 opacity-50 w-50 m-auto" />
 			</motion.div>
 			<div className="row mt-2 mb-5">
@@ -42,7 +42,7 @@ function Studies() {
 				>
 					<p
 						dangerouslySetInnerHTML={{ __html: t("ceti") }}
-						className="fw-medium"
+						className="fw-medium card-font"
 					></p>
 				</motion.div>
 			</div>
@@ -53,8 +53,8 @@ function Studies() {
 				transition={{ duration: 0.3 }}
 				className="mb-3"
 			>
-				<h2 className="text-center text-primary">2022 - HOY</h2>
-				<h1 className="text-center mb-3">CUCEI</h1>
+				<h2 className="text-center text-primary font-bold">2022 - HOY</h2>
+				<h1 className="text-center mb-3 font-bold">CUCEI</h1>
 				<hr className="border border-primary border-2 opacity-50 w-50 m-auto" />
 			</motion.div>
 			<div className="row mt-2 mb-6">
@@ -62,7 +62,7 @@ function Studies() {
 					whileInView={{ scale: 1, opacity: 1 }}
 					initial={{ scale: 0, opacity: 0 }}
 					transition={{ duration: 0.3, delay: 0.3 }}
-					className="col-md-4 order-md-2 align-self-center text-center"
+					className="col-md-4 order-md-2 align-self-center"
 				>
 					<Image
 						src={cucei}
@@ -78,7 +78,7 @@ function Studies() {
 				>
 					<p
 						dangerouslySetInnerHTML={{ __html: t("cucei") }}
-						className="fw-medium"
+						className="fw-medium card-font"
 					></p>
 				</motion.div>
 			</div>

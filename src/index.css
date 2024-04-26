@@ -5,4 +5,16 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --main-color: #6f90cb;
+  /* --main-color: #6ca9b9; */
+}
+
+.bg-color {
+  background-color: var(--main-color);
+}
+  
+html, body {
+  scrollbar-color: var(--main-color) transparent !important;
+  scrollbar-width: thin;
 }

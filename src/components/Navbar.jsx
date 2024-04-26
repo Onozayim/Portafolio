@@ -30,15 +30,15 @@ function NavbarComponent({ children }) {
 					<Navbar.Toggle />
 					<Navbar.Collapse className="justify-content-end">
 						<Nav variant="underline" defaultActiveKey={location}>
-							<Nav.Link href="/experiencia">{t("experiencia")}</Nav.Link>
-							<Nav.Link href="/estudios">{t("estudios")}</Nav.Link>
+							<Nav.Link href="/experiencia" className="font-bold">{t("experiencia")}</Nav.Link>
+							<Nav.Link href="/estudios" className="font-bold">{t("estudios")}</Nav.Link>
 							<select
 								defaultValue={language}
-								className="form-select"
+								className="form-select font-bold"
 								onChange={onChangeLang}
 							>
 								{LANGUAGES.map(({ code, label }) => (
-									<option key={code} value={code}>
+									<option className="font-bold" key={code} value={code}>
 										{label}
 									</option>
 								))}

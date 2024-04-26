@@ -16,8 +16,8 @@ function Experience() {
 				transition={{ duration: 0.3 }}
 				className="mb-3 mt-5"
 			>
-				<h2 className="text-center text-warning">Enero 2022 - Junio 2022</h2>
-				<h1 className="text-center mb-3">CREATIVE SOFT</h1>
+				<h2 className="text-center text-warning font-bold">Enero 2022 - Junio 2022</h2>
+				<h1 className="text-center mb-3 font-bold">CREATIVE SOFT</h1>
 				<hr className="border border-warning border-2 opacity-50 w-50 m-auto" />
 			</motion.div>
 			<div className="row mt-5 mb-5">
@@ -25,7 +25,7 @@ function Experience() {
 					whileInView={{ scale: 1, opacity: 1 }}
 					initial={{ scale: 0, opacity: 0 }}
 					transition={{ duration: 0.3, delay: 0.3 }}
-					className="col-md-4 align-self-center justify-self-center text-center"
+					className="col-md-4 align-self-center justify-self-center text-center mt-3"
 				>
 					<Image
 						src={creative}
@@ -36,12 +36,12 @@ function Experience() {
 				<motion.div
 					whileInView={{ scale: 1, opacity: 1 }}
 					initial={{ scale: 0, opacity: 0 }}
-					transition={{ duration: 0.5, delay: 0.3 }}
-					className="col-md-8 align-self-center"
+					transition={{ duration: 0.5, delay: 0.3 }}z
+					className="col-md-8 align-self-center mt-3"
 				>
 					<p
 						dangerouslySetInnerHTML={{ __html: t("creativeSoft") }}
-						className="fw-medium"
+						className="fw-medium card-font"
 					></p>
 				</motion.div>
 			</div>
@@ -52,8 +52,8 @@ function Experience() {
 				transition={{ duration: 0.3 }}
 				className="mb-3"
 			>
-				<h2 className="text-center text-primary">2022 - HOY</h2>
-				<h1 className="text-center mb-3">TEPACHE SOFT</h1>
+				<h2 className="text-center text-primary font-bold">2022 - HOY</h2>
+				<h1 className="text-center mb-3 font-bold">TEPACHE SOFT</h1>
 				<hr className="border border-primary border-2 opacity-50 w-50 m-auto" />
 			</motion.div>
 			<div className="row mt-5 mb-6">
@@ -61,7 +61,7 @@ function Experience() {
 					whileInView={{ scale: 1, opacity: 1 }}
 					initial={{ scale: 0, opacity: 0 }}
 					transition={{ duration: 0.3, delay: 0.3 }}
-					className="col-md-4 order-md-2 align-self-center text-center"
+					className="col-md-4 order-md-2 align-self-center text-center mt-3"
 				>
 					<Image
 						src={tepache}
@@ -73,11 +73,11 @@ function Experience() {
 					whileInView={{ scale: 1, opacity: 1 }}
 					initial={{ scale: 0, opacity: 0 }}
 					transition={{ duration: 0.5, delay: 0.3 }}
-					className="col-md-8 order-md-1 align-self-center"
+					className="col-md-8 order-md-1 align-self-center mt-3"
 				>
 					<p
 						dangerouslySetInnerHTML={{ __html: t("tepache") }}
-						className="fw-medium"
+						className="fw-medium card-font"
 					></p>
 				</motion.div>
 			</div>

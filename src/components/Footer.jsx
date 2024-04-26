@@ -1,11 +1,12 @@
 import "../App.css"
+import "../index.css"
 const SIZE = 35;
 
 function Footer() {
 	return (
 		// <div className="container">
 		<footer
-			className="d-flex bg-dark flex-wrap justify-content-between align-items-center py-3 px-5 mt-4 border-top text-light footer w-100"
+			className="d-flex bg-color flex-wrap justify-content-between align-items-center py-3 px-5 mt-4 border-top text-light footer w-100"
 		>
 			<div className="col-md-4 d-flex align-items-center">
 				<a
