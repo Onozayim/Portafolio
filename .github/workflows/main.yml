@@ -9,13 +9,13 @@ jobs:
     name: build
     runs-on: ubuntu-latest
     steps:
-          - name: upload
-            run: echo "READY TO DEPLOY"
-          - name: step-2
-            run: echo "STEP 2" 
-          - name: connect
-            run: ssh -tt -p 1411 deploy@64.23.150.254
-          - name: passwd
-            run: ${{ secrets.PASSWORD }}
+          - name: executing remote ssh commands using password
+            uses: appleboy/ssh-action@v1.0.3
+            with:
+              host: ${{ secrets.HOST }}
+              username: ${{ secrets.USERNAME }}
+              password: ${{ secrets.PASSWORD }}
+              port: ${{ secrets.PORT }}
+              script: whoami
             
     
