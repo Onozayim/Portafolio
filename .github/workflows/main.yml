@@ -7,4 +7,4 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: deploy
-        run: echo "Hello world"
+        run: sh /home/bash-scripts/upload-prod.sh
