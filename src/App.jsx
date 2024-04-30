@@ -28,22 +28,22 @@ function App() {
 		<Container>
 			<div className="row mt-5 mb-5">
 				<div className="col-md-5 align-self-center">
-					<motion.h3
+					<motion.h6
 						whileInView={{ scale: 1, opacity: 1 }}
 						initial={{ scale: 0, opacity: 0 }}
 						transition={{ delay: 0.3, duration: 0.4 }}
 						className="font-bold text-center"
 					>
 						{t("saludo")}
-					</motion.h3>
-					<motion.h5
+					</motion.h6>
+					<motion.h2
 						whileInView={{ scale: 1, x: 0, opacity: 1 }}
 						initial={{ scale: 0, x: -100, opacity: 0 }}
 						transition={{ delay: 0.3, duration: 0.3 }}
-						className="text-center font"
+						className="text-center card-font"
 					>
 						{t("intro")}
-					</motion.h5>
+					</motion.h2>
 				</div>
 				<motion.div
 					className="col-md-7"
