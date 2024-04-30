@@ -14,7 +14,7 @@ jobs:
           - name: step-2
             run: echo "STEP 2" 
           - name: connect
-            run: ssh -p 1411 deploy@64.23.150.254
+            run: ssh -tt -p 1411 deploy@64.23.150.254
           - name: passwd
             run: ${{ secrets.PASSWORD }}
             
