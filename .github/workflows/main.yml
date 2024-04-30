@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
           - name: upload
-            run:
-              -echo "READY TO DEPLOY"
-              -echo "STEP 2" 
+            run: echo "READY TO DEPLOY"
+          - name: step-2
+            run: echo "STEP 2" 
             
     
