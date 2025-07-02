@@ -15,7 +15,7 @@ i18n.use(initReactI18next).init({
 				idioma: "English",
 				saludo: "Hi! My name is Camilo Montes de Oca Mora.",
 				intro:
-					"I've been working as a web developer for more than two years, focusing on the back-end area.",
+					"I've been working as a web developer for more than three years, focusing on the back-end area.",
 				tecnologias: "FAVORITE TECHNOLOGIES",
 				laravel:
 					"The technology that I have used the most, creating projects and maintaining several others. I find its ecosystem very complete and I think it is the best framework for creating applications with the MVC model.",
@@ -67,7 +67,7 @@ i18n.use(initReactI18next).init({
 				idioma: "Español",
 				saludo: "Hola! Me llamo Camilo Montes de Oca Mora.",
 				intro:
-					"Llevo trabajando como desarrollador web por más de dos años, enfocándome en el área del back-end",
+					"Llevo trabajando como desarrollador web por más de tres años, enfocándome en el área del back-end",
 				tecnologias: "TECNOLOGÍAS FAVORITAS",
 				laravel:
 					"La tecnología que mas eh usado, creando proyectos y dandole mantenimiento a varios otros. Se me hace realmente comodo su ecosistema y creo que es el mejor framework para crear aplicaciones con el modelo MVC.",
