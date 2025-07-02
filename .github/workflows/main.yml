@@ -9,4 +9,3 @@ jobs:
       - name: deploy
         run: |
           sh /bash-scripts/upload-prod.sh
-          ${{ secrets.PASSPHRASE }}
