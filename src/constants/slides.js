@@ -1,11 +1,14 @@
 import laravel from "../assets/laravel.jpg";
-import graphql from "../assets/graphql.jpg";
+// import graphql from "../assets/graphql.jpg";
 import django from "../assets/django.jpg";
-import codeigniter from "../assets/codeigniter.jpg";
-import nodejs from "../assets/nodejs.jpg";
+// import codeigniter from "../assets/codeigniter.jpg";
+// import nodejs from "../assets/nodejs.jpg";
 import react from "../assets/react.jpg";
-import jquery from "../assets/jquery.jpg";
+// import jquery from "../assets/jquery.jpg";
 import bd from "../assets/bd.jpg";
+import linux from "../assets/linux.png"
+import aws from "../assets/aws.jpg"
+import java from "../assets/springboot.png"
 
 import { useTranslationHook } from "../hooks/translation";
 
@@ -13,45 +16,40 @@ function SLIDES() {
     const { t } = useTranslationHook(); 
     return [
 		{
-			titulo: "Laravel",
+			titulo: "PHP",
 			text: t("laravel"),
 			image: laravel,
 		},
 		{
-			titulo: "GraphQL",
-			text: t("graphQL"),
-			image: graphql,
-		},
-		{
-			titulo: "Django",
-			text: t("django"),
-			image: django,
-		},
-		{
-			titulo: "CodeIgniter",
-			text: t("codeIgniter"),
-			image: codeigniter,
-		},
-		{
-			titulo: "Nodejs",
-			text: t("nodejs"),
-			image: nodejs,
-		},
-		{
 			titulo: "React",
-			text: t("react"),
+			text: t("js"),
 			image: react,
 		},
 		{
-			titulo: "jQuery",
-			text: t("jquery"),
-			image: jquery,
+			titulo: "Java", 
+			text: t("java"),
+			image: java
+		},
+		{
+			titulo: "Python",
+			text: t("python"),
+			image: django,
 		},
 		{
 			titulo: t("basesDeDatos"),
 			text: t("bd"),
 			image: bd,
 		},
+		{
+			titulo: t("server"),
+			text: t("linux"),
+			image: linux
+		},
+		{
+			titulo: t("cloudservices"),
+			text: t("cloud"),
+			image: aws
+		}
 	];
 }
 export { SLIDES };
