@@ -41,7 +41,7 @@ function Experience() {
 					className="col-md-8 align-self-center mt-3"
 				>
 					<p
-						dangerouslySetInnerHTML={{ __html: t("creativeSoft") }}
+						dangerouslySetInnerHTML={{ __html: t("itm") }}
 						className="fw-medium card-font"
 					></p>
 				</motion.div>
@@ -52,7 +52,7 @@ function Experience() {
 				transition={{ duration: 0.3 }}
 				className="mb-3 mt-5"
 			>
-				<h2 className="text-center mb-3 font-bold text-color">TEPACHE SOFT ({t("junio")} 2022 - {t("dic")} 2024)</h2>
+				<h2 className="text-center mb-3 font-bold text-color">TEPACHE SOFT ({t("junio")} 2022 - {t("oct")} 2024)</h2>
 				<hr className="text-color border-3 opacity-75 w-50 m-auto" />
 			</motion.div>
 			<div className="row mt-5 mb-6">
@@ -87,7 +87,7 @@ function Experience() {
 				transition={{ duration: 0.3 }}
 				className="mb-3 mt-5"
 			>
-				<h2 className="text-center mb-3 font-bold text-dark-color">CREATIVE SOFT ({t("enero")} 2022 - {t("junio")} 2022)</h2>
+				<h2 className="text-center mb-3 font-bold text-dark-color">CREATIVE SOFT ({t("marzo")} 2022 - {t("junio")} 2022)</h2>
 				<hr className="text-dark-color border-3 opacity-75 w-50 m-auto" />
 			</motion.div>
 			<div className="row mt-5 mb-5">

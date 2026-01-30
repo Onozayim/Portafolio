@@ -56,8 +56,11 @@ i18n.use(initReactI18next).init({
 				tepache: `
 					With almost 3 years working with them, providing service to the Mexican company called Adventa, I really learned many things, such as the development, optimization and maintenance of projects written in PHP, which were used to maintain and supply the inventory of various stores and companies. It was a great experience and I am very grateful for it.
 				`,
+				itm: "In the final stages of my studies, I was looking for a job that would allow me to finish college. Unfortunately, my limited availability made it very difficult to find work, but I was lucky enough to find ITMatters. They gave me the opportunity to work for them despite my limited availability. With them, I learned many non-technical skills, such as communicating with clients, analyzing and proposing business ideas, and leading teams. Unfortunately, I wasn't able to grow much in the technical area, as the work mainly involved ServiceNow or very simple JavaScript and Python code.", 
 				enero: "JANUARY",
+				marzo: "MARCH",
 				junio: "JUNE",
+				oct: "OCTOBER",
 				hoy: "TODAY",
 				dic: "DECEMBER",
 				server: "Server Administration",
@@ -115,13 +118,15 @@ i18n.use(initReactI18next).init({
 				tepache: `
 					Con casi 3 años trabajando con ellos, brindando servicio a la empresa mexicana llamada Adventa, realmente aprendí muchas cosas, como el desarrollo, optimización y mantenimiento de proyectos escritos en PHP, las cuales se utilizaban para mantener y proveer el inventario de varias tiendas y empresas. Fue una gran experiencia y estoy muy agradecido por ello.
 				`,
-				itmatters: `
-					En los ultimos momentos de la carrera, estaba a la busca de una oportunidad
+				itm: `
+					En los ultimos momentos de la carrera, estaba a la busca de un empleo que me dejara terminar con la universidad, lamentablemente el no tener toda la disponibilidad horario hace muy dificíl la contratación, pero tuve la surte de encontrar a la empresa ITMatters, me dieron la oportunidad de trabajar para ellos aún con la poca disponibilidad horaria, con ellos aprendí muchas habilidades no técnicas, como el hablar con clientes, hacer analysis y propuestas del negocio, liderar equipos, etc. Aunque lamentablemente no pude crecer mucho en la area técnica, ya que los trabajos eran principalmente con ServiceNow, o codigos muy simples de JS y Python.
 				`,
 				enero: "ENERO",
 				junio: "JUNIO",
 				hoy: "HOY",
 				dic: "DICIEMBRE",
+				oct: "OCTUBRE",
+				marzo: "MARZO",
 				server: "Administración de servidores",
 				linux: "No me considero un sysadmin ni nada parecido, solo he administrado mis propios servidores usando Debian con diferentes servicios como http, smtp, imap, pop3, ftp, ssh etc. Pero creo que tengo los conocimientos básicos para no darle permisos 777 a la carpeta de /etc",
 				cloudservices: "Servicios de la nube",
